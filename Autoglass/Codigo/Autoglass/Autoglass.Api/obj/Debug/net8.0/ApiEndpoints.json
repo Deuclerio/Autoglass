@@ -1,0 +1,2407 @@
+[
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "Post",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "Delete",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "GetById",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "Put",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cliente/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ClienteDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "GetByCNPJ",
+    "RelativePath": "api/Cliente/GetByCNPJ/{cnpj}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cnpj",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ClienteDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ClienteController",
+    "Method": "GetByListCNPJ",
+    "RelativePath": "api/Cliente/GetByListaCNPJ",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listaCNPJ",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ClienteCNPJDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "Post",
+    "RelativePath": "api/CondicaoPgto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.CondicaoPgtoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.CondicaoPgtoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "Delete",
+    "RelativePath": "api/CondicaoPgto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "GetById",
+    "RelativePath": "api/CondicaoPgto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.CondicaoPgtoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "Put",
+    "RelativePath": "api/CondicaoPgto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.CondicaoPgtoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.CondicaoPgtoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "GetAll",
+    "RelativePath": "api/CondicaoPgto/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.CondicaoPgtoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CondicaoPgtoController",
+    "Method": "GetComboBox",
+    "RelativePath": "api/CondicaoPgto/ComboBox",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ComboboxDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "Post",
+    "RelativePath": "api/Cotacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCotacao",
+        "Type": "CotacaoPecas.Application.Dtos.NewCotacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.NewCotacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "Delete",
+    "RelativePath": "api/Cotacao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "GetById",
+    "RelativePath": "api/Cotacao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.CotacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cotacao/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.CotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "AssociarProduto",
+    "RelativePath": "api/Cotacao/AssociarProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "associarProduto",
+        "Type": "CotacaoPecas.Application.Dtos.AssociarProdutoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.AssociarProdutoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "BuscarDadosFiltrados",
+    "RelativePath": "api/Cotacao/BuscarDadosFiltrados/{pagina}/{tamanhoPagina}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "CotacaoPecas.Application.Dtos.Filtros.FiltroCotacaoDto",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tamanhoPagina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "X.PagedList.IPagedList\u00601[[CotacaoPecas.Application.Dtos.CotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "Declinar",
+    "RelativePath": "api/Cotacao/Declinar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "Enviado",
+    "RelativePath": "api/Cotacao/Enviado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "FinalizarRevisao",
+    "RelativePath": "api/Cotacao/FinalizarRevisao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.CotacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "GetByDocumentoCliente",
+    "RelativePath": "api/Cotacao/GetByDocumentoCliente/{documentoCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentoCliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.CotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "GetByPortalId",
+    "RelativePath": "api/Cotacao/GetByPortalId/{idPortal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPortal",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.CotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "GetCotacoesRevisadas",
+    "RelativePath": "api/Cotacao/GetCotacoesRevisadas/{idPortal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPortal",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.CotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.CotacaoController",
+    "Method": "UpdateProduto",
+    "RelativePath": "api/Cotacao/UpdateProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateItemCotacao",
+        "Type": "CotacaoPecas.Application.Dtos.UpdateItemCotacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.UpdateItemCotacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ItemCotacaoController",
+    "Method": "Delete",
+    "RelativePath": "api/ItemCotacao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ItemCotacaoController",
+    "Method": "GetById",
+    "RelativePath": "api/ItemCotacao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ItemCotacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ItemCotacaoController",
+    "Method": "GetAll",
+    "RelativePath": "api/ItemCotacao/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ItemCotacaoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ItemCotacaoController",
+    "Method": "Declinar",
+    "RelativePath": "api/ItemCotacao/Declinar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.MarcaController",
+    "Method": "Post",
+    "RelativePath": "api/Marca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.MarcaController",
+    "Method": "Delete",
+    "RelativePath": "api/Marca/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.MarcaController",
+    "Method": "GetById",
+    "RelativePath": "api/Marca/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.MarcaController",
+    "Method": "Put",
+    "RelativePath": "api/Marca/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.MarcaDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.MarcaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Marca/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.MarcaDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ParametroController",
+    "Method": "Post",
+    "RelativePath": "api/Parametro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ParametroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ParametroDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ParametroController",
+    "Method": "GetById",
+    "RelativePath": "api/Parametro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ParametroDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ParametroController",
+    "Method": "Put",
+    "RelativePath": "api/Parametro/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ParametroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ParametroDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ParametroController",
+    "Method": "GetAll",
+    "RelativePath": "api/Parametro/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ParametroDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PlanilhaImportadaController",
+    "Method": "ImportarPlanilha",
+    "RelativePath": "api/PlanilhaImportada/ImportarPlanilha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoPlanilha",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ResultadoImportacaoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PortalController",
+    "Method": "Post",
+    "RelativePath": "api/Portal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.PortalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.PortalDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PortalController",
+    "Method": "Delete",
+    "RelativePath": "api/Portal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PortalController",
+    "Method": "GetById",
+    "RelativePath": "api/Portal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.PortalDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PortalController",
+    "Method": "Put",
+    "RelativePath": "api/Portal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.PortalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.PortalDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.PortalController",
+    "Method": "GetAll",
+    "RelativePath": "api/Portal/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.PortalDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "Post",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ProdutoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ProdutoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "Delete",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "GetById",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ProdutoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "Put",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.ProdutoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.ProdutoDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Produto/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ProdutoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "BuscarDadosFiltrados",
+    "RelativePath": "api/Produto/BuscarDadosFiltrados/{pagina}/{tamanhoPagina}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "CotacaoPecas.Application.Dtos.Filtros.FiltroProdutoDto",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tamanhoPagina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "X.PagedList.IPagedList\u00601[[CotacaoPecas.Application.Dtos.ProdutoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.ProdutoController",
+    "Method": "GetByTipoProduto",
+    "RelativePath": "api/Produto/GetByTipoProduto/{tipoProduto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoProduto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idProduto",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.ProdutoDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "Post",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.UsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.UsuarioDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.UsuarioDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "Put",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "CotacaoPecas.Application.Dtos.UsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.UsuarioDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuario/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CotacaoPecas.Application.Dtos.UsuarioDto, CotacaoPecas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "CotacaoPecas.Application.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CotacaoPecas.Application.Dtos.AuthDto",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "CotacaoPecas.Api.Controllers.UsuarioController",
+    "Method": "Logout",
+    "RelativePath": "api/Usuario/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "CotacaoPecas.Api.Filters.Error",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  }
+]

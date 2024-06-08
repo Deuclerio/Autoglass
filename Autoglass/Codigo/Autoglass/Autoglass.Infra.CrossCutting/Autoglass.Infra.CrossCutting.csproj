@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Autoglass.Application\Autoglass.Application.csproj" />
+    <ProjectReference Include="..\Autoglass.Domain.Services\Autoglass.Domain.Services.csproj" />
+    <ProjectReference Include="..\Autoglass.Infra.Data\Autoglass.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

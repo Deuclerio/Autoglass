@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CotacaoPecas.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CotacaoPecas.Api.Controllers.JobController">
+            <summary>[Authorize]
+            </summary>
+        </member>
+        <member name="M:CotacaoPecas.Api.Controllers.JobController.#ctor(CotacaoPecas.Application.Service.Interfaces.IVehiclesAppService,CotacaoPecas.Application.Service.Interfaces.IDriversAppService,CotacaoPecas.Application.Service.Interfaces.IPrognosisAppService,CotacaoPecas.Application.Service.Interfaces.IGroupVehiclesAppService,CotacaoPecas.Application.Service.Interfaces.IVehicleStatusAppService)">
+            <summary>
+            Constructor to Marca Controller 
+            </summary>
+            <param name="marcaAppService">app service</param>
+        </member>
+        <member name="T:CotacaoPecas.Api.Controllers.MarcaController">
+            <summary>[Authorize]
+            </summary>
+        </member>
+        <member name="M:CotacaoPecas.Api.Controllers.MarcaController.#ctor(CotacaoPecas.Application.Service.Interfaces.IMarcaAppService)">
+            <summary>
+            Constructor to Marca Controller 
+            </summary>
+            <param name="marcaAppService">app service</param>
+        </member>
+    </members>
+</doc>
