@@ -8,6 +8,6 @@ namespace Autoglass.Domain.Core.Interfaces.Services
     public interface IProdutoService : IService<Produto>
     {
         Task<IEnumerable<Produto>> GetByDto(ProdutoFilter filter);
-        Task<Produto> GetByIdActive(long? id);
+        Task<Produto> GetByIdActive(long id);
     }
 }

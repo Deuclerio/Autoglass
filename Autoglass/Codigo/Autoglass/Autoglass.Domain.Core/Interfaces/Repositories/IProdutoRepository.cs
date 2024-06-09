@@ -7,7 +7,7 @@ namespace Autoglass.Domain.Core.Interfaces.Repositories
 {
     public interface IProdutoRepository : IRepository<Produto>
     {
-        Task<Produto> GetAllActive(long? id);
+        Task<Produto> GetAllActive(long id);
         Task<IEnumerable<Produto>> GetByDto(ProdutoFilter filter);
     }
 }

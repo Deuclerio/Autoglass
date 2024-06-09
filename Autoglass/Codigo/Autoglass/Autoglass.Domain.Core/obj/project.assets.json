@@ -3515,11 +3515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
       "projectName": "Autoglass.Domain.Core",
-      "projectPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
+      "projectPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\deucl\\.nuget\\packages\\",
-      "outputPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\obj\\",
+      "outputPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deucl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3536,8 +3536,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain\\Autoglass.Domain.csproj": {
-              "projectPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain\\Autoglass.Domain.csproj"
+            "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain\\Autoglass.Domain.csproj": {
+              "projectPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain\\Autoglass.Domain.csproj"
             }
           }
         }

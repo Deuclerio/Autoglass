@@ -16,7 +16,7 @@ namespace Autoglass.Infra.Data.Repositories
         {
         }
 
-        public async Task<Produto> GetAllActive(long? id)
+        public async Task<Produto> GetAllActive(long id)
         {
             var query = await Uow.Context.Set<Produto>().Where(p => p.Id == id && p.Situcao == true).FirstOrDefaultAsync();
             return query;

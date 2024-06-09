@@ -23,9 +23,9 @@ namespace Autoglass.Domain.Services.Services
             return await _produtoRepository.GetByDto(filter);
         }
 
-        public async Task<Produto> GetByIdActive(long? id)
+        public async Task<Produto> GetByIdActive(long id)
         {
-            return await _produtoRepository.GetAllActive(id.Value);
+            return await _produtoRepository.GetAllActive(id);
         }
     }
 }

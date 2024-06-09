@@ -32,3 +32,21 @@ C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\refint\Autoglass.Application.dll
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.pdb
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\ref\Autoglass.Application.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Application.deps.json
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Application.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Application.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Domain.Core.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Domain.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Domain.Core.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\bin\Debug\net8.0\Autoglass.Domain.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.csproj.AssemblyReference.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.AssemblyInfoInputs.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.AssemblyInfo.cs
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.csproj.CoreCompileInputs.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.sourcelink.json
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.csproj.CopyComplete
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\refint\Autoglass.Application.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\Autoglass.Application.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Application\obj\Debug\net8.0\ref\Autoglass.Application.dll

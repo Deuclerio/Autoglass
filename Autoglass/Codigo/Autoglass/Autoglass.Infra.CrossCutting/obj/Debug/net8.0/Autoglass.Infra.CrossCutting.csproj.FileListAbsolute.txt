@@ -44,3 +44,27 @@ C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutti
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\refint\Autoglass.Infra.CrossCutting.dll
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.pdb
 C:\Source\Autoglass\github\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\ref\Autoglass.Infra.CrossCutting.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Infra.CrossCutting.deps.json
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Infra.CrossCutting.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Infra.CrossCutting.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Application.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.Core.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.Services.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Infra.Data.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Application.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.Services.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Infra.Data.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\bin\Debug\net8.0\Autoglass.Domain.Core.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.AssemblyInfo.cs
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.sourcelink.json
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.csproj.CopyComplete
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\refint\Autoglass.Infra.CrossCutting.dll
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\Autoglass.Infra.CrossCutting.pdb
+C:\Users\deucl\OneDrive\Área de Trabalho\BaixaProva\Autoglass\Autoglass\Codigo\Autoglass\Autoglass.Infra.CrossCutting\obj\Debug\net8.0\ref\Autoglass.Infra.CrossCutting.dll

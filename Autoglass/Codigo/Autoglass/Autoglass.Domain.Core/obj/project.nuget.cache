@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0GDviw6CNo6o0smUxpIzXEYSENUtAFDmfBtUhnsvi2DzErN2/1gwaDV0wtSJjh0+QnAJTyuRPCxuYaGculBN0w==",
+  "dgSpecHash": "DiztMBJwSALRaup1pD4nGplnEoTZ9+r+t+0drUoAWQKmkehLTbaFQ4FBuxESYCfcqPCuE0CRWSku1tdxhY5ycA==",
   "success": true,
-  "projectFilePath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
+  "projectFilePath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Core\\Autoglass.Domain.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deucl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\deucl\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

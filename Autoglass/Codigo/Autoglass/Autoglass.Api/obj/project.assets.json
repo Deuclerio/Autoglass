@@ -12693,11 +12693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\Autoglass.Api.csproj",
+      "projectUniqueName": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\Autoglass.Api.csproj",
       "projectName": "Autoglass.Api",
-      "projectPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\Autoglass.Api.csproj",
+      "projectPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\Autoglass.Api.csproj",
       "packagesPath": "C:\\Users\\deucl\\.nuget\\packages\\",
-      "outputPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\obj\\",
+      "outputPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deucl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12714,11 +12714,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj": {
-              "projectPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj"
+            "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj"
             },
-            "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.Data\\Autoglass.Infra.Data.csproj": {
-              "projectPath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.Data\\Autoglass.Infra.Data.csproj"
+            "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.Data\\Autoglass.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.Data\\Autoglass.Infra.Data.csproj"
             }
           }
         }

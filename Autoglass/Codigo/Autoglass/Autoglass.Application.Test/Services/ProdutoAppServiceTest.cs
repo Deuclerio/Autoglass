@@ -3,6 +3,7 @@ using Autoglass.Application.Services;
 using Autoglass.Domain.Core.Interfaces.Repositories;
 using Autoglass.Domain.Core.Interfaces.Services;
 using Autoglass.Domain.Entities;
+using Autoglass.Domain.Filter;
 using AutoMapper;
 using Moq;
 using Xunit;
@@ -25,11 +26,44 @@ namespace Autoglass.Application.Test.Services
         }
 
         [Fact]
+        public async Task GetByDto_ReturnsMappedProducts()
+        {
+            // Arrange
+            var filter = new ProdutoFilter { Descricao = "Produto" };
+            var productList = new List<Produto>
+        {
+            new Produto { Id = 1, Descricao = "Produto 1", Situcao = true },
+            new Produto { Id = 2, Descricao = "Produto 2",Situcao = true }
+        };
+
+            _mockProdutoService.Setup(service => service.GetByDto(filter)).ReturnsAsync(productList);
+
+            // Act
+            var result = await _produtoAppService.GetByDto(filter);
+
+            // Assert
+            Assert.NotNull(result);
+            _mockProdutoService.Verify(service => service.GetByDto(filter), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetByDto_ThrowsException_WhenServiceFails()
+        {
+            // Arrange
+            var filter = new ProdutoFilter { /* configure filter properties if needed */ };
+            _mockProdutoService.Setup(service => service.GetByDto(filter)).ThrowsAsync(new Exception("Service failed"));
+
+            // Act & Assert
+            await Assert.ThrowsAsync<Exception>(() => _produtoAppService.GetByDto(filter));
+            _mockProdutoService.Verify(service => service.GetByDto(filter), Times.Once);
+        }
+
+        [Fact]
         public async Task GetAllActive_ReturnsMappedProducts()
         {
             // Arrange
             var products = new List<Produto> { new Produto { Id = 1, Descricao = "Product 1" } };
-            var productDtos = new List<ProdutoDto> { new ProdutoDto {  Descricao = "Product 1" } };
+            var productDtos = new List<ProdutoDto> { new ProdutoDto { Descricao = "Product 1" } };
             _mockProdutoService.Setup(s => s.GetAll()).ReturnsAsync(products);
             _mockMapper.Setup(m => m.Map<IEnumerable<ProdutoDto>>(products)).Returns(productDtos);
 
@@ -49,7 +83,7 @@ namespace Autoglass.Application.Test.Services
             // Act & Assert
             var exception = await Assert.ThrowsAsync<Exception>(() => _produtoAppService.GetAllActive());
             Assert.Equal("Service exception", exception.Message);
-        }   
+        }
 
 
 
@@ -123,7 +157,7 @@ namespace Autoglass.Application.Test.Services
             await Assert.ThrowsAsync<Exception>(() => _produtoAppService.Insert(produtoDto));
             _mockUoW.Verify(x => x.Rollback(), Times.Once);
         }
-                
+
 
         [Fact]
         public async Task Inactivate_ShouldThrowException_WhenProductNotFound()
@@ -187,8 +221,6 @@ namespace Autoglass.Application.Test.Services
             var exception = Record.Exception(() => ProdutoAppService.ValidationDate(dataFabricacao, dataValidade));
             Assert.Null(exception);
         }
-
     }
- 
 }
 

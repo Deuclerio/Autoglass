@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPDBgcVhmJaoqxCvOwA01r+RGst4aIKQ5RVHrEvFoIgchWOz+l3EQYYuWPoYT8xbLQdkAFUKFIwXksbRLxOCLw==",
+  "dgSpecHash": "sRQDqswWJ07Yk1BAl3YE/vlRmORSmlQhCm0qVzGtGkE78RbVzzL2vWgU3GqHACgMNhs7O6+rM6wJOV586ZtvGw==",
   "success": true,
-  "projectFilePath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Infra.CrossCutting\\Autoglass.Infra.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deucl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\deucl\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

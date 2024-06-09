@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hYBCtDc5N2tqjn3nSo6+yakpAr5zsM3APFC91vzimGrmdiKFRZ1VHKbONtvGZFzy7BPKZNsVl4D1uYlJn464gQ==",
+  "dgSpecHash": "Ei9R8j35gHAOPmlnJa0wPA3swwoGyYvrOF4X2CjRmogobHx8Ztn52kgn5wcSE0HG+yprNSEhBoVwye1eoiuexQ==",
   "success": true,
-  "projectFilePath": "C:\\Source\\Autoglass\\github\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Services\\Autoglass.Domain.Services.csproj",
+  "projectFilePath": "C:\\Users\\deucl\\OneDrive\\Área de Trabalho\\BaixaProva\\Autoglass\\Autoglass\\Codigo\\Autoglass\\Autoglass.Domain.Services\\Autoglass.Domain.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deucl\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\deucl\\.nuget\\packages\\closedxml\\0.102.2\\closedxml.0.102.2.nupkg.sha512",
